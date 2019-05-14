@@ -1,0 +1,33 @@
+On Mar 18, 2019, 7:53 PM -0700, John Moody (thatmoodyguy) 
+here’s the finalized format of what I’ll be sending via UDP:
+
+It will be a string, separated by spaces, in the following format:
+
+“CAMERA SUCCESS CENTER_X TOP_Y HEADING DISTANCE_H DISTANCE_V DISTANCE_V_RC TIMESTAMP”
+
+Where the values are as follows:
+
+CAMERA —        either “front” or “rear” - this tells you where the data is coming from.  
+                (This should always be “front” for now.)
+        
+SUCCESS —       either 1 (target acquired) or 0 
+                (no target acquired).  If 0, then there will be no other data in the string
+                except the TIMESTAMP at the end.
+
+CENTER_X —      the X coordinate (in pixels) of the centerline between the acquired target pair.
+
+TOP_Y -         the uppermost Y value (in pixels) of the target pair.
+
+HEADING -       the degrees from straight ahead (0 degrees) of the centerline of the target pair.
+                A negative value indicates that the target is to the left of the forward view; positive headings are to the right.
+
+DISTANCE_H -    distance to target, as calculated using the camera FOV and the horizontal gap width
+                between the inner top target points.
+
+DISTANCE_V -    distance to target, as calculated using the Y offset.  (Since we don’t have the camera height data yet,
+                this value is always 0.0.). This is for normal height vision targets (excluding the rocket cargo).
+
+DISTANCE_V_RC - distance to target, as calculated using the Y offset, assuming the vision target height is that of a
+                rocket cargo target.  (Also 0.0 for now).
+
+TIMESTAMP -     a floating number expressing the Unix epoch in seconds.
