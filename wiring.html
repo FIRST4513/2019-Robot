@@ -1,0 +1,69 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Wiring</title>
+    <style type="text/css" media="screen">
+      table {
+          text-align: left;
+          width: 400px;
+
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+          border-collapse:collapse;
+          border-spacing:0px;
+      }
+      th {
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+      }
+      .pound {
+          width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wiring</h1>
+                    <h2>DIO</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Sensor</th></tr>
+	                                               <tr><td>0</td><td>ElevSubSys ElevLwrLmtSw</td><td></td></tr>
+            	                                         <tr><td>1</td><td>ElevSubSys ElevUpperLmtSw</td><td></td></tr>
+            	                                         <tr><td>2</td><td>ArmSubSys ArmUpperLmtSw</td><td></td></tr>
+            	                                         <tr><td>3</td><td>ArmSubSys armLwrLmtSw</td><td></td></tr>
+            	                                                                                                                                                                                                                                                                             	    </table>
+                    <h2>PWMs</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Motor</th>
+                <th>Type</th></tr>
+	                                               <tr><td>0</td><td>LEDSubSys LEDCtrlr</td><td>Spark</td></tr>
+            	                                                     <tr><td>2</td><td>ElevSubSys ElevBrakeCtlr</td><td>Spark</td></tr>
+            	                                                                             <tr><td>6</td><td>IntakeSubSys IntakeLeftMtr</td><td>Spark</td></tr>
+            	                                         <tr><td>7</td><td>IntakeSubSys IntakeRightMtr</td><td>Spark</td></tr>
+            	                                                                                                                                                                             <tr><td>19</td><td>IntakeSubSys IntakeMtr</td><td>Talon</td></tr>
+            	                                                                             	    </table>
+     
+                <h2>CAN IDs</h2>
+	<table><tr>
+	<th class="pound">ID</th>
+	<th>Device</th></tr>
+	                                                                 <tr><td>2</td><td>Drivetrain RightFrontMtr</td><td></td></tr>
+            	                                         <tr><td>3</td><td>Drivetrain LeftFrontMtr</td><td></td></tr>
+            	                                                     <tr><td>5</td><td>ArmSubSys ArmMtrCtlr</td><td></td></tr>
+            	                                         <tr><td>6</td><td>ElevSubSys ElevMtrCtlr</td><td></td></tr>
+            	                                                                                                                                                                                                                                         	</table>
+    
+            
+                    <h2>Analog Inputs</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Sensor</th></tr>
+	                                               <tr><td>0</td><td>ElevSubSys ElevPotentiometer</td><td></td></tr>
+            	                                         <tr><td>1</td><td>ArmSubSys armPotentiometer</td><td></td></tr>
+            	                                         <tr><td>2</td><td>Drivetrain Sonar</td><td></td></tr>
+            	                                         <tr><td>3</td><td>IntakeSubSys IntakeSensor</td><td></td></tr>
+            	                                                                                                                                                                                                                                                                             	    </table>
+                
+                                                                                                                                                                                                                                                            
+          </body>
+</html>

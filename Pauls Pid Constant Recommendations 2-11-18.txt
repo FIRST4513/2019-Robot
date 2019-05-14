@@ -1,0 +1,15 @@
+
+Dtrive Straight:
+Kp = 0.049
+Kd = 0.29
+MOVE_RATE = 3.6
+Output Max = 0.8
+BB = 0.38/0.01
+
+
+Rotate:
+Kp = 0.023
+Kd = 0.17
+MOVE_RATE = 3.0
+I don't think we limited the output here. If we did, I didn't write it down.
+BB = 0.4/0.01
