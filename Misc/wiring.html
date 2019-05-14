@@ -1,0 +1,99 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Wiring</title>
+    <style type="text/css" media="screen">
+      table {
+          text-align: left;
+          width: 480px;
+
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+          border-collapse:collapse;
+          border-spacing:0px;
+      }
+      th {
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+      }
+      .pound {
+          width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wiring</h1>
+                    <h2>DIO</h2>
+        <table><tr>
+            <th class="pound">#</th>
+            <th>Subsystem</th>
+            <th>Sensor</th></tr>
+                                                                        <tr><td>0</td><td>IntakeSubSys </td><td>LiftLoweredSw</td><td></td></tr>
+                                                                                              <tr><td>1</td><td>IntakeSubSys </td><td>LiftMidSw</td><td></td></tr>
+                                                                                              <tr><td>2</td><td>IntakeSubSys </td><td>LiftRaisedSw</td><td></td></tr>
+                                                                                              <tr><td>3</td><td>IntakeSubSys </td><td>RollerLoweredSw</td><td></td></tr>
+                                                                                              <tr><td>4</td><td>IntakeSubSys </td><td>RollerRaisedSw</td><td></td></tr>
+                                                                                              <tr><td>5</td><td>IntakeSubSys </td><td>HatchSensor</td><td></td></tr>
+                                                                                              <tr><td>6</td><td>ElevSubSys </td><td>ElevUpper1LmtSw</td><td></td></tr>
+                                                                                              <tr><td>7</td><td>ElevSubSys </td><td>ElevUpper2LmtSw</td><td></td></tr>
+                                                                                              <tr><td>8</td><td>ElevSubSys </td><td>ElevLwr1LmtSw</td><td></td></tr>
+                                                                                              <tr><td>9</td><td>ElevSubSys </td><td>ElevLwr2LmtSw</td><td></td></tr>
+                                                                                                          <tr><td>11</td><td>ManipulatorSubSys </td><td>Selector_Hatch_Pos_Sw</td><td></td></tr>
+                                                                                              <tr><td>12</td><td>ManipulatorSubSys </td><td>ManiHatchDetector</td><td></td></tr>
+                                                                                                                                                          <tr><td>18</td><td>ManipulatorSubSys </td><td>ManiCargoDetector</td><td></td></tr>
+                                                                                              <tr><td>19</td><td>ManipulatorSubSys </td><td>HatchGrabberClosedSw</td><td></td></tr>
+                                                                                              <tr><td>20</td><td>Drivetrain </td><td>ClimbRetractSwitch</td><td></td></tr>
+                                                                                              <tr><td>21</td><td>Drivetrain </td><td>ClimbExtendSwitch</td><td></td></tr>
+                                                                                              <tr><td>22</td><td>ElevSubSys </td><td>ElevUpperLmtSw</td><td></td></tr>
+                                                                                              <tr><td>23</td><td>ElevSubSys </td><td>ElevLwrLntSw</td><td></td></tr>
+                                                                     </table>
+             
+                <h2>CAN IDs</h2>
+    <table><tr>
+    <th class="pound">ID</th>
+    <th>Subsystem</th>
+    <th>Device</th>
+    <th>Type</th></tr>
+                                              <tr><td>0</td><td>Drivetrain </td><td>ClimbMotor</td><td>Talon SRX</td></tr>
+                                                          <tr><td>1</td><td>Drivetrain </td><td>rightRMtr</td><td>Talon SRX</td></tr>
+                                                          <tr><td>2</td><td>Drivetrain </td><td>rightFMtr</td><td>Talon SRX</td></tr>
+                                                          <tr><td>3</td><td>ElevSubSys </td><td>ElevMtr</td><td>Talon SRX</td></tr>
+                                                          <tr><td>4</td><td>IntakeSubSys </td><td>IntakeRollerMtr</td><td>Victor SPX</td></tr>
+                                                          <tr><td>5</td><td>Drivetrain </td><td>leftRMtr</td><td>Talon SRX</td></tr>
+                                                          <tr><td>6</td><td>Drivetrain </td><td>leftFMtr</td><td>Talon SRX</td></tr>
+                                                          <tr><td>7</td><td>Drivetrain </td><td>leftTMtr</td><td>Talon SRX</td></tr>
+                                                          <tr><td>8</td><td>ManipulatorSubSys </td><td>CargoMtr</td><td>Victor SPX</td></tr>
+                                                                      <tr><td>10</td><td>Drivetrain </td><td>rightTMtr</td><td>Talon SRX</td></tr>
+                                                                                                                                                                                                             </table>
+    
+            
+                    <h2>Analog Inputs</h2>
+        <table><tr>
+            <th class="pound">#</th>
+            <th>Subsystem</th>
+            <th>Sensor</th></tr>
+                                                                                                            <tr><td>3</td><td>ElevSubSys </td><td>Elev Potentiometer</td><td></td></tr>
+                                                                                                                                                                                                                                                                                                                     </table>
+                
+                    <h2>PCM 0</h2>
+        <table><tr>
+            <th class="pound">#</th>
+            <th>Subsystem</th>
+            <th>Solenoid</th></tr>
+                                                                        <tr><td>0</td><td>IntakeSubSys </td><td>IntakeLiftValve Forward </td><td></td></tr>
+                                                                                              <tr><td>1</td><td>IntakeSubSys </td><td>IntakeLiftValve Reverse </td><td></td></tr>
+                                                                                              <tr><td>2</td><td>ManipulatorSubSys </td><td>HatchGrabberValve Output </td><td></td></tr>
+                                                                                              <tr><td>3</td><td>IntakeSubSys </td><td>IntakeRollerLiftValve Output </td><td></td></tr>
+                                                                                              <tr><td>4</td><td>ElevSubSys </td><td>elevValve Output </td><td></td></tr>
+                                                                                                          <tr><td>6</td><td>ManipulatorSubSys </td><td>SelectorValve Output </td><td></td></tr>
+                                                                                              <tr><td>7</td><td>Drivetrain </td><td>gearShiftValve Output </td><td></td></tr>
+                                                                                                                                                                                                                                                                     </table>
+                                                                                                                                                                                                                                                    
+                <h2>Compressor</h2>
+    <table><tr>
+    <th class="pound">PCM</th>
+    <th>Subsystem</th>
+    <th>Device</th></tr>
+                                                                  <tr><td>0</td><td>Drivetrain </td><td>Compressor</td><td></td></tr>
+                                                                                                                                                                                                                                                                                                                                                     </table>
+      </body>
+</html>
