@@ -1,0 +1,1044 @@
+{
+  "dividerPosition": 0.008555133079847909,
+  "tabPane": [
+    {
+      "title": "Autonomous",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 40.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 8.0,
+        "tiles": {
+          "0,10": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/LoggerWrite",
+              "_title": "SmartDashboard/LoggerWrite"
+            }
+          },
+          "10,1": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Elev Brake",
+              "_title": "Brake"
+            }
+          },
+          "7,10": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/TestRightSwCmdGrp",
+              "_title": "SmartDashboard/TestRightSwCmdGrp"
+            }
+          },
+          "3,10": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/TestLeftSwCmdGrp",
+              "_title": "SmartDashboard/TestLeftSwCmdGrp"
+            }
+          },
+          "8,4": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Third-Choice",
+              "_title": "/SmartDashboard/Third-Choice"
+            }
+          },
+          "4,4": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Second-Choice",
+              "_title": "/SmartDashboard/Second-Choice"
+            }
+          },
+          "0,4": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/First-Choice",
+              "_title": "/SmartDashboard/First-Choice"
+            }
+          },
+          "1,1": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Location-Choice",
+              "_title": "/SmartDashboard/Location-Choice"
+            }
+          },
+          "4,1": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Single/Dual Cube",
+              "_title": "/SmartDashboard/Single/Dual Cube"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Drivetrain",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 40.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 8.0,
+        "tiles": {
+          "2,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Enc-Right Dist",
+              "_title": "Right Dist"
+            }
+          },
+          "0,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Enc-Left Cnt",
+              "_title": "Left Enc"
+            }
+          },
+          "0,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Enc-Left Dist",
+              "_title": "Left Dist"
+            }
+          },
+          "2,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Enc-Right Cnt",
+              "_title": "Right Enc"
+            }
+          },
+          "5,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Gyro-Hdg",
+              "_title": "Gyro Hdg"
+            }
+          },
+          "7,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Gyro-Yaw",
+              "_title": "Gyro Yaw"
+            }
+          },
+          "14,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Rbt Angle",
+              "_title": "Rbt Angle"
+            }
+          },
+          "10,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Rbt X Pos",
+              "_title": "Rbt X Pos"
+            }
+          },
+          "12,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Rbt Y Pos",
+              "_title": "Rbt Y Pos"
+            }
+          },
+          "0,6": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/ResetEncodersCmd",
+              "_title": "SmartDashboard/ResetEncodersCmd"
+            }
+          },
+          "0,8": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Drivetrain Average Distance",
+              "_title": "Distance"
+            }
+          },
+          "2,8": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Drivetrain Average Speed",
+              "_title": "Speed"
+            }
+          },
+          "4,6": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/ResetGyro",
+              "_title": "SmartDashboard/ResetGyro"
+            }
+          },
+          "8,6": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/ResetPosition",
+              "_title": "SmartDashboard/ResetPosition"
+            }
+          },
+          "7,10": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/TestRightSwCmdGrp",
+              "_title": "SmartDashboard/TestRightSwCmdGrp"
+            }
+          },
+          "11,10": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/TestLeftSwCmdGrp",
+              "_title": "SmartDashboard/TestLeftSwCmdGrp"
+            }
+          },
+          "14,10": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/TestFwd2CmdGrp",
+              "_title": "SmartDashboard/TestFwd2CmdGrp"
+            }
+          },
+          "0,10": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/LoggerWrite",
+              "_title": "SmartDashboard/LoggerWrite"
+            }
+          },
+          "13,6": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Test_11_Fwd2Pwr",
+              "_title": "/Preferences/Test_11_Fwd2Pwr"
+            }
+          },
+          "13,8": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Test_12_Fwd2Brake",
+              "_title": "/Preferences/Test_12_Fwd2Brake"
+            }
+          },
+          "13,4": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Test_10_Fwd2Dist",
+              "_title": "/Preferences/Test_10_Fwd2Dist"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Arm",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 40.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 8.0,
+        "tiles": {
+          "0,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Arm CurrPos",
+              "_title": "Arm Position"
+            }
+          },
+          "3,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Arm CurrVolt",
+              "_title": "Arm Pot Volt"
+            }
+          },
+          "7,6": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Arm LowerLmtSw",
+              "_title": "Arm Lower Lmt Sw"
+            }
+          },
+          "7,3": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Arm UpperLmtSw",
+              "_title": "Arm Upper Lmt Sw"
+            }
+          },
+          "6,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Arm CurrPwr",
+              "_title": "Arm Power"
+            }
+          },
+          "7,9": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Intake",
+              "_title": "/SmartDashboard/Intake"
+            }
+          },
+          "9,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Sensor Value",
+              "_title": "/SmartDashboard/Sensor Value"
+            }
+          },
+          "0,5": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Arm_41_Volt_Lower",
+              "_title": "/Preferences/Arm_41_Volt_Lower"
+            }
+          },
+          "0,3": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Arm_40_Volt_Upper",
+              "_title": "/Preferences/Arm_40_Volt_Upper"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "PID Fwd",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 40.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "0,0": {
+            "size": [
+              5,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_10_PID_Fwd_Tgt",
+              "_title": "Target Distance"
+            }
+          },
+          "1,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_11_PID_Fwd_P",
+              "_title": "PID P"
+            }
+          },
+          "1,5": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_12_PID_Fwd_I",
+              "_title": "PID I"
+            }
+          },
+          "1,7": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_13_PID_Fwd_D",
+              "_title": "PID D"
+            }
+          },
+          "1,8": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_14_PID_Fwd_F",
+              "_title": "PID F"
+            }
+          },
+          "4,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_15_PID_Fwd_MaxOut",
+              "_title": "Max Output"
+            }
+          },
+          "4,5": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_16_PID_Tol_In",
+              "_title": "Tolerence"
+            }
+          },
+          "6,5": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_17_PID_Fwd_Drift",
+              "_title": "Drift"
+            }
+          },
+          "10,0": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Drivetrain Average Distance",
+              "_title": "Robot Distance"
+            }
+          },
+          "4,8": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/TestFwdPIDCmdGrp",
+              "_title": "SmartDashboard/TestFwdPIDCmdGrp"
+            }
+          },
+          "9,8": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/ArmStopCmd",
+              "_title": "SmartDashboard/ArmStopCmd"
+            }
+          },
+          "9,5": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/ResetEncodersCmd",
+              "_title": "SmartDashboard/ResetEncodersCmd"
+            }
+          },
+          "9,7": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/ResetGyro",
+              "_title": "SmartDashboard/ResetGyro"
+            }
+          },
+          "4,7": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/LoggerWrite",
+              "_title": "SmartDashboard/LoggerWrite"
+            }
+          },
+          "8,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Gyro-Yaw",
+              "_title": "Yaw"
+            }
+          },
+          "6,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_18_PID_Fwd_MoveRt",
+              "_title": "Preferences/Drive_18_PID_Fwd_MoveRt"
+            }
+          },
+          "9,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_19_PID_Fwd_BB_Lwr",
+              "_title": "Preferences/Drive_19_PID_Fwd_BB_Lwr"
+            }
+          },
+          "11,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_19_PID_Fwd_BB_Upr",
+              "_title": "Preferences/Drive_19_PID_Fwd_BB_Upr"
+            }
+          },
+          "13,3": {
+            "size": [
+              1,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_50_GyroCor",
+              "_title": "GyroConst"
+            }
+          },
+          "13,5": {
+            "size": [
+              1,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_51_GyroMax",
+              "_title": "GyroMax"
+            }
+          },
+          "5,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_10_PID_Fwd_Hdg",
+              "_title": "Preferences/Drive_10_PID_Fwd_Hdg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "PID Rotate",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 40.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "1,0": {
+            "size": [
+              5,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_20_PID_Rot_Tgt",
+              "_title": "Rotate Tgt. Angle"
+            }
+          },
+          "1,2": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_21_PID_Rot_P",
+              "_title": "PID P"
+            }
+          },
+          "1,4": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_22_PID_Rot_I",
+              "_title": "PID I"
+            }
+          },
+          "1,6": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_23_PID_Rot_D",
+              "_title": "PID D"
+            }
+          },
+          "1,8": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_24_PID_Rot_F",
+              "_title": "PID F"
+            }
+          },
+          "4,2": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_25_PID_Rot_MaxOut",
+              "_title": "Max Output"
+            }
+          },
+          "4,4": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_26_PID_Tol_Deg",
+              "_title": "Tolerence Degrees"
+            }
+          },
+          "6,0": {
+            "size": [
+              5,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Gyro-Yaw",
+              "_title": "Gyro Yaw"
+            }
+          },
+          "3,8": {
+            "size": [
+              5,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/TestPtTurnPIDCmdGrp",
+              "_title": "SmartDashboard/TestPtTurnPIDCmdGrp"
+            }
+          },
+          "8,8": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/ArmStopCmd",
+              "_title": "SmartDashboard/ArmStopCmd"
+            }
+          },
+          "8,6": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/ResetGyro",
+              "_title": "SmartDashboard/ResetGyro"
+            }
+          },
+          "4,6": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_32_PID_Rot_MoveRt",
+              "_title": "Preferences/Drive_32_PID_Rot_MoveRt"
+            }
+          },
+          "8,2": {
+            "size": [
+              6,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_31_PID_Rot_BB_Upr",
+              "_title": "Preferences/Drive_31_PID_Rot_BB_Upr"
+            }
+          },
+          "8,4": {
+            "size": [
+              6,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Drive_30_PID_Rot_BB_Lwr",
+              "_title": "Preferences/Drive_30_PID_Rot_BB_Lwr"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Elev",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 40.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "0,3": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Elev_40_Volt_Upper",
+              "_title": "Elev Upper V-Pref"
+            }
+          },
+          "0,5": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/Elev_41_Volt_Lower",
+              "_title": "Elev Lower V-Pref"
+            }
+          },
+          "4,5": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/elev LowerLmtSw",
+              "_title": "Elev Lower Limit"
+            }
+          },
+          "4,3": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/elev UpperLmtSw",
+              "_title": "Elev Upper Limit"
+            }
+          },
+          "3,0": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/elev CurrVolt",
+              "_title": "Elev Pot Volts"
+            }
+          },
+          "0,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/elev CurrPos",
+              "_title": "Elev Position"
+            }
+          },
+          "7,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/elev CurrPwr",
+              "_title": "Elev Power"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Leds",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 40.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "3,1": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/TestLeds",
+              "_title": "/SmartDashboard/TestLeds"
+            }
+          },
+          "3,4": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///Preferences/LEDS_10_Test_Value",
+              "_title": "Preferences/LEDS_10_Test_Value"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Retraction",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 40.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "1,1": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///LiveWindow/IntakeSubSys/IntakeSensor/Value",
+              "_title": "Intake Sensor"
+            }
+          },
+          "1,4": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/IntakeEjectCmd",
+              "_title": "/SmartDashboard/IntakeEjectCmd"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
